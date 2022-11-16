@@ -296,6 +296,10 @@ kbd kbd {
 
 figure {
   margin: 0 0 1rem;
+  border: 0.5px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  background-color: rgba(204, 204, 204, 0.1);
 }
 
 img,
@@ -3448,11 +3452,12 @@ textarea.form-control-lg {
 .btn-outline-dark {
   color: #212529;
   border-color: #212529;
+  margin: 5px; 
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #048BC2;
+  border-color: #048BC2;
 }
 .btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
   box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
@@ -11306,8 +11311,8 @@ header {
 }
 
 section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 /* back-to-top */
@@ -11317,15 +11322,110 @@ section {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 25px;
-  outline: none;
-  border-color: rgba(170, 170, 170, 0.15);
   cursor: pointer;
-  padding: 10px;
-  border-radius: 4px; 
   background-color: rgba(170, 170, 170, 0.25);
+  outline: none;
+  font-size: 25px;
+  padding: 10px;
+  border-color: rgba(170, 170, 170, 0.15);
+  border-radius: 4px; 
 }
-
+ 
 #back-to-top:hover {
   background-color: rgba(170, 170, 170, 0.5);
+}
+ 
+.subsection {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+
+/*references*/
+.quote {
+  position: relative;
+}
+
+.quote blockquote {
+  padding: 0px;
+  border: 0;
+  margin: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+ /* font-size: 14px;
+  font-style: italic;*/
+}
+
+.quote blockquote p {
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.quote blockquote:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 90px;
+  width: 0;
+  height: 0;
+  border-top: 0.83333em solid #ccc;
+  border-right: 0.86667em solid transparent;
+}
+
+.quote.green blockquote {
+  background-color: #32c5d2;
+}
+
+.quote.green blockquote:before {
+  border-top-color: #32c5d2;
+}
+
+.quote.primary blockquote {
+  background-color: #048bc2; /* #555 */
+}
+
+.quote.primary blockquote:before {
+  border-top-color: #048bc2; /* #555 */
+}
+
+.quote-footer {
+  margin: 10px 0;
+}
+
+.quote-footer .quote-author-img img {
+  float: left;
+  max-width: 90px;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: -5px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.quote-footer .bottom-left {
+    float: left;
+    position: absolute;
+    z-index: 1;
+   }
+
+.quote-footer h4 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.quote-footer p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
 }
