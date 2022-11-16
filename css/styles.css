@@ -11413,12 +11413,6 @@ section {
   background-color: #fff;
 }
 
-.quote-footer .bottom-left {
-    float: left;
-    position: absolute;
-    z-index: 1;
-   }
-
 .quote-footer h4 {
   font-size: 14px;
   margin-bottom: 4px;
