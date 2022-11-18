@@ -11359,10 +11359,10 @@ section {
 
 .quote blockquote p {
   color: #fff;
-  padding-top: 25px;
-  padding-bottom: 45px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .quote blockquote:before {
@@ -11398,15 +11398,15 @@ section {
 
 .quote-footer .quote-author-img img {
   float: left;
-  max-width: 90px;
-  width: 90px;
-  height: 90px;
+  max-width: 75px;
+  width: 75px;
+  height: 75px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  margin-left: -5px;
-  margin-top: -40px;
+  /*margin-left: -5px;*/
+  margin-top: -25px;
   position: relative;
   z-index: 1;
   padding: 5px;
