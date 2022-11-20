@@ -11,6 +11,8 @@
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Font Awesome icons (free version)-->
         <script src="js/fontawesome.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.expander.min.js"></script>
     </head>
     <body id="page-top">
         <button onclick="topFunction()" id="back-to-top"  ><i class="fa-solid fa-chevron-up"></i></button>
@@ -31,15 +33,14 @@
         </nav>
         <!-- Header-->
         <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
+            <div class="container px-4 text-center"> <img class="img-profile" src="img/romeos.jpg" alt="Romeo SEMENIUC">               
                 <h1 class="fw-bolder">Romeo SEMENIUC</h1>
                  <h2>Full-Stack Digital Marketing</h2>
                 <p class="lead">Strategy, Analytics, Project Management, Research<br>SEO, SEA, SMM, E-Mail Marketing, UI/UX & more</p>           
-                <a class="btn btn-lg btn-light" href="#about"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a class="btn btn-lg btn-light" href="#about"><i class="fa-brands fa-twitter"></i></a>
-                <a class="btn btn-lg btn-light" href="#about"><i class="fa-solid fa-download"></i> Download CV</a>
-                <br><br><br>
-                <a class="btn btn-lg btn-outline-light" href="#aplication"><i class="fa-solid fa-angles-down"></i></a>
+                <a class="btn btn-lg btn-light" href="#about"><i class="fa-solid fa-download"></i> download <b>Application Letter</b></a>
+                <a class="btn btn-lg btn-light" href="#about"><i class="fa-solid fa-download"></i> download <b>Resume</b></a>
+                <br><br>
+                <a class="btn btn-lg btn-outline-light" href="#aplication"><i class="fa-solid fa-angles-down"></i> Read <b>Application Letter</b> online</a>
                 
                  
             </div>
@@ -112,7 +113,6 @@
                     <div class="col-lg-8">
                         <h3>&nbsp;&nbsp;<i class="fa-solid fa-graduation-cap"></i></i>&nbsp;&nbsp;Education</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-
                     </div>
                 </div>
             </div>
@@ -125,7 +125,6 @@
                     <div class="col-lg-8">
                         <h3>&nbsp;&nbsp;<i class="fa-solid fa-award"></i>&nbsp;&nbsp;Licenses & Certification</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-
                     </div>
                 </div>
             </div>
@@ -138,6 +137,7 @@
                     <div class="col-lg-8">
                         <h3>&nbsp;&nbsp;<i class="fa-sharp fa-solid fa-trophy"></i>&nbsp;&nbsp;Skills</h3>
                         Passed LinkedIn Skill Assessment
+                        <a  href="#skills">Skills</a> 
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
                      </div>
                 </div>
@@ -150,58 +150,146 @@
          <section id="testimonials">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
+                 <div class="col-lg-8">
                         <h2><i class="fa-solid fa-people-line"></i>&nbsp;Others about me</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae,
-                             doloribus consequuntur ex. 
-                        </p>
-
-                        <div class="row">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    
+                <div class="row">
                         <div class="col-sm">   
                             <div class="my-xl-3">
                                 <div class="quote primary">
                                     <blockquote>
-                                        <p><i class="fa-solid fa-quote-left"></i><br>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.                          
+                                        <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                            Romeo can see behavior in data and knows how to interpret numbers to come to the right conclusion. He has great expertise in digital marketing he willingly and openly shares with colleagues. Romeo lives the one for all and asks for the all-for-one. His passion for the online world is inspiring.
                                         </p>
                                     </blockquote>                        
                                 </div>        
                                 <div class="quote-footer">                                    
                                     <div class="quote-author-img">
-                                        <a href="#" target="_blank">
-                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                        <a href="https://www.linkedin.com/in/nicole-wittmann/" target="_blank">
+                                            <img src="img/n_w.jpg" alt="Nicole Wittmann">
                                         </a>
                                     </div>  
-                                    <h6>Loren Ipsum <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h6>
-                                     <h4>tester</h4>          
+                                    <h4>Nicole Wittmann <a href="https://www.linkedin.com/in/nicole-wittmann/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                                    <p><b>Head of External Communications</b><br>B&R Industrial Automation </p>                                              
                                 </div>
                             </div><!--colored quote box col-->
                         </div>
+
                         <div class="col-sm">
                             <div class="my-xl-3">
                                 <div class="quote green">
                                     <blockquote>
-                                        <p><i class="fa-solid fa-quote-left"></i><br>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.                          
+                                        <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                            Romeo is a very valuable member of our online team. We do not only benefit from his expertise in technical SEO but also when it comes to analytics and special information in the field of online marketing. He is very keen on information and attaches great importance to keeping our team know-how up to date.
                                         </p>
                                     </blockquote>                        
                                 </div>
                                 <div class="quote-footer"> 
                                     <div class="quote-author-img"><a href="#" target="_blank"> 
-                                        <a href="#" target="_blank"> 
-                                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                                        <a href="https://www.linkedin.com/in/michaela-stern/" target="_blank"> 
+                                            <img src="img/m_s.jpg" alt="Michaela Stern">
                                         </a>                             
-                                    <h6>Zetrs Hil  </h6>
-                                    <p>tester</p> 
+                                    <h4>Michaela Stern <a href="https://www.linkedin.com/in/michaela-stern/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                                    <p><b>Online Marketer Specialist</b><br>B&R Industrial Automation </p>   
                                 </div>
                             </div><!--colored quote box col-->
-                        </div>   
-                        </div><!--testimonials row-->
-     
-
-                        
-
+                       </div> 
                     </div>
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-sm">   
+                        <div class="my-xl-3">
+                            <div class="quote green">
+                                <blockquote>
+                                    <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                        Romeo has a deep understanding of the digital marketing world and a lot of experience with complex online projects. For questions about digital marketing, no matter how specific they are, Romeo is always there to provide me with a detailed and helpful answer.
+                                    </p>
+                                </blockquote>                        
+                            </div>        
+                            <div class="quote-footer">                                    
+                                <div class="quote-author-img">
+                                    <a href="https://www.linkedin.com/in/patricia-wimmer-790202199/" target="_blank">
+                                        <img src="img/p_w.jpg" alt="Patricia Wimmer">
+                                    </a>
+                                </div>  
+                                <h4>Patricia Wimmer <a href="https://www.linkedin.com/in/patricia-wimmer-790202199/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                                <p><b>Marketer – Social Media</b><br>B&R Industrial Automation </p>                                              
+                       </div>
+                        </div><!--colored quote box col-->
+                    </div>
+
+                    <div class="col-sm">
+                        <div class="my-xl-3">
+                            <div class="quote primary">
+                                <blockquote>
+                                    <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                        "All or nothing" could be Romeo’s motto, because he doesn't like compromises. He works in a very structured way and knows what is important in his analyses. He is first on the ball with the innovations in the field sharing his extensive experience with his colleagues through regular technology updates.
+                                        Personally, I really appreciate the cross-team collaboration with Romeo, as he has given me support several times. Its VBA scripts allow me to automate time-consuming tasks, saving a lot of work.
+                                    </p>
+                                </blockquote>                        
+                            </div>
+                            <div class="quote-footer"> 
+                                <div class="quote-author-img"><a href="#" target="_blank"> 
+                                    <a href="https://www.linkedin.com/in/stephan-hahnel/" target="_blank"> 
+                                        <img src="img/s_h.jpg" alt="Stephan Hahnel">
+                                    </a>    
+                                    <h4>Stephan Hahnel <a href="https://www.linkedin.com/in/stephan-hahnel/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                                    <p><b>Sales Presentation Designer</b><br>B&R Industrial Automation </p>   
+                            </div>
+                        </div><!--colored quote box col-->
+                   </div> 
+                </div>
+            </div><!--end row-->
+                 
+            <div class="row">
+                <div class="col-sm">   
+                    <div class="my-xl-3">
+                        <div class="quote green">
+                            <blockquote>
+                                <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                    Romeo is a calm, patient, and extremely talented person whom I was fortunate to meet in my professional career when we worked together a few years back. It was a wonderful journey to work with Romeo in the marketing department. His attitude towards work and life is unique with something to learn from. He has superb enthusiasm to support teams and individuals in all kinds of digital marketing and analytic activities. He was a go-to person for any kind of online, analytics, and digital activities that were being handled at the company. I saw him consistently strive hard to build a digital culture within the marketing team that would have enabled business growth. His distinctive approach coupled with his passion has made him very successful. Irrespective of various work pressures, Romeo is never negative about any situation and consistently motivates everyone around him to achieve desired results. It is indeed an honor and pleasure to work with Romeo and learn from him.
+                                </p>
+                            </blockquote>                        
+                        </div>        
+                        <div class="quote-footer">                                    
+                            <div class="quote-author-img">
+                                <a href="https://www.linkedin.com/in/ninad-s-deshpande/" target="_blank">
+                                    <img src="img/n_d.jpg" alt="Ninad Deshpande">
+                                </a>
+                            </div>  
+                            <h4>Ninad Deshpande <a href="https://www.linkedin.com/in/ninad-s-deshpande/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                            <p><b>Co-Founder & CEO</b><br>Sceptertech.Digital</p>                                              
+                   </div>
+                    </div><!--colored quote box col-->
+                </div>
+
+                <div class="col-sm">
+                    <div class="my-xl-3">
+                        <div class="quote primary">
+                            <blockquote>
+                                <p class="expend"><i class="fa-solid fa-quote-left"></i><br>
+                                    As a professional, Romeo is a very dedicated person. His strong noticeable skills are his ability to fulfill deadlines and learn quickly, his team spirit, and his leadership qualities.is te During his time at Carrefour, he gained vast and practical experience in online marketing and digital PR, leading to several achievements. Among the many I want to mention the following:
+                                    <br>- Implementing a revolutionary approach for SEO (Search Engine Optimization) activities on company websites;
+                                    <br>- Creating, implementing, and administrating all our online campaigns, 
+                                    <br>- Designing and implementing the structure of an interdepartmental database for managing cross-channel marketing campaigns.
+                                </p>
+                            </blockquote>                        
+                        </div>
+                        <div class="quote-footer"> 
+                            <div class="quote-author-img"><a href="#" target="_blank"> 
+                                <a href="https://www.linkedin.com/in/mihaiandreea/" target="_blank">
+                                    <img src="img/a_m.jpg" alt="Andreea Mihai">
+                                </a> 
+                                <h4>Andreea Mihai <a href="https://www.linkedin.com/in/mihaiandreea/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h4>
+                                <p><b>Chief Executive Officer</b><br>Hagag Development Europe</p>   
+                        </div><br>
+                    </div><!--colored quote box col-->
+               </div> 
+            </div>
+        </div><!--end row-->
+            
                 </div>
             </div>
         </section>
@@ -212,7 +300,17 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                          <h2><i class="fa-regular fa-handshake"></i>&nbsp;Let's meet</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.
+                            <br>
+                            <a class="btn btn-lg btn-outline-dark" href="mailto:romeo.semeniuc@gmail.com"><i class="fa-solid fa-envelope"></i> romeo.semeniuc@gmail.com</a>
+                            <br>
+                            <a class="btn btn-lg btn-outline-dark" href="tel:+436767343758"><i class="fa-solid fa-phone"></i> +43 6767 343 758</a>
+                        </p>
+                            <h4>Social Me: </h4>
+                            <a class="btn btn-lg btn-outline-dark" href="https://www.linkedin.com/in/semeniuc/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> | view my LinkedIn profile</a>
+                            <a class="btn btn-lg btn-outline-dark" href="https://twitter.com/RomeoSeme" target="_blank"><i class="fa-brands fa-twitter"></i> | view my Twitter activity</a>  
+
+                        
                     </div>
                 </div>
             </div>

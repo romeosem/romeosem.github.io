@@ -52,3 +52,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// readMore
+$(document).ready(function() {
+  $('.expend').expander({
+  expandEffect: 'fadeIn',
+  collapseEffect: 'fadeOut',
+  slicePoint: 100
+  });
+});
